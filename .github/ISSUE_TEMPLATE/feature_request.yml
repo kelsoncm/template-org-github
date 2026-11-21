@@ -1,0 +1,22 @@
+name: Sugerir uma melhoria / Feature request
+description: Ideia ou necessidade nova / A new idea or need
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema ou necessidade / Problem or need
+      description: O que você não consegue fazer hoje? / What can't you do today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta / Proposal
+      description: Como imagina que funcionaria? / How do you imagine it working?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas / Alternatives considered
